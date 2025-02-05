@@ -1,4 +1,6 @@
 package dev.desktop;
+// import nessecary regex libarys
+import java.util.regex.*;
 
 /**
  * Lexer class

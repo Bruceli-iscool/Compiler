@@ -11,6 +11,7 @@ public class App {
             System.exit(64);
         }
         File file = new File(args[0]);
+        System.out.println(args[0]);
         // read logic
     }
 }

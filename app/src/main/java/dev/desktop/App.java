@@ -17,7 +17,7 @@ public class App {
             File file = new File(args[0]);
             Scanner reader = new Scanner(file);
             while (reader.hasNextLine()) {
-                content += reader.nextLine();
+                content = content + reader.nextLine();
             }
             reader.close();
         } catch (FileNotFoundException e) {

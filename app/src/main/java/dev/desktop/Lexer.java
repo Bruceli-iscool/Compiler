@@ -1,5 +1,5 @@
 package dev.desktop;
-// import nessecary regex libarys
+// import a necessary regex library
 import java.util.regex.*;
 
 /**

@@ -7,8 +7,16 @@ public class compiler {
             System.out.println(lex(content));
         }
     }
-    public static String read(String path) {
-        return "";
+    public static String read(String path) }
+    	String content = "";
+        try (Scanner scanner = new Scanner(new File(filePath))) {
+             while (scanner.hasNext()) {
+                content += scanner.nextLine();
+             }
+        } catch (FileNotFoundException e) {
+            System.out.println("Error!: File Not Found");
+        }
+	return content;
     }
     public static ArrayList<String> lex(String input) {
         return new ArrayList<String>();
